@@ -1,0 +1,27 @@
+{
+  "name": "animation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.9.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.2",
+    "react-test-renderer": "^15.5.4",
+    "redux-logger": "^3.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

@@ -1,0 +1,10 @@
+.Game {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
