@@ -1,7 +1,12 @@
 {
   "name": "animation",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "animation with react",
+  "main": "index.js",
+  "author": "Alex Skorokhod",
+  "homepage" : "https://sweetca.github.io/animation",
+  "repository": "https://github.com/sweetca/animation",
+  "license": "ISC",
   "dependencies": {
     "d3": "^4.9.1",
     "react": "^15.5.4",
